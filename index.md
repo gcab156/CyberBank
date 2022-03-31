@@ -314,7 +314,7 @@
 <h5> 16. Scan the QR Code of the Wallet 
 <h5> 17. Paste the 6-num. Code in Wallet
 
-<h4> Buy Bitcoin
+#### Buy Bitcoin
 ##### 1. Go to "https://bitcoin.org/en/buy"
 <h5> 1. Set the Amount
 <h5> 3. Enter your Wallet Address 
