@@ -1,3 +1,13 @@
+# ---> Site <--- #
 theme: jekyll-theme-hacker
+title: Be Anonymous
+
+
+# ---> Author <--- #
 author: gcab156
-timezone: "America/Chicago"
+email: gcab156@protonmail.com
+
+
+# ---> Footer social media <--- #
+rss-description: By gcab156
+rss: true
