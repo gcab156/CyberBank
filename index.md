@@ -38,7 +38,9 @@
 ###### 1. Disable WPS function
 ###### 2. Disable Broadcast SSID
 ###### 3. Set a Secure WPA2 Password
-###### 4. Disable Log's
+###### 4. Maximum Firewall Security
+###### 5. Paid VPN
+###### 6. Disable Log's
 
 
 
