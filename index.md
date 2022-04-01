@@ -3,9 +3,9 @@
 <br>
 
 #### Covering Entries
-###### 1. Cover your camera
-###### 2. Cover the microphone/s
-###### 3. Remove the GPS card
+##### 1. Cover your camera
+##### 2. Cover the microphone/s
+##### 3. Remove the GPS card
 
 <br>
 
@@ -70,10 +70,10 @@
 ###### No-IP provides dynamic DNS services . A basic one is provided free of charge, as long as the user updates his access from time to time, keeping it active. Upgrades to DDNS come with purchases. Dynamic IP addresses are common in residential cable or DSL broadband accounts, and typical DDNS users would be users of these types of Internet connections. The service allows users to create up to three host names in a No-IP domain. Software clients are provided for Windows, OS X and Linux, which allows DDNS to connect to these operating systems. More often, however, routers are used in such DDNS setups.
 
 #### Create Account
-* Go to the NoIP website and create an account
-* Check your email for the verification and click the link.
-* Log out / Log in again and create a userid
-* Create a DynDNS entry
+###### 1. Go to the NoIP website and create an account
+###### 2. Check your email for the verification and click the link.
+###### 3. Log out / Log in again and create a userid
+###### 4. Create a DynDNS entry
 
 #### Gather the Binaries
 
@@ -172,26 +172,26 @@
 
 #### Settings
 
-###### 1. Go to "about:preferences#search" and select 'DuckDuckGoOnion' in the 'Default Search Engine'
+##### 1. Go to "about:preferences#search" and select 'DuckDuckGoOnion' in the 'Default Search Engine'
 
-###### 2. Go to "about:preferences#privacy" and select the 'Always' option in 'Onion services'
+##### 2. Go to "about:preferences#privacy" and select the 'Always' option in 'Onion services'
 
-###### 3. Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
+##### 3. Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
 
-###### 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
+##### 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
 
-###### 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
+##### 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
 
 #### Install Extensions
-###### Privacy Badger - https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/
-###### uBlock Origin - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
-###### NoScript Security Suite - https://addons.mozilla.org/en-US/firefox/addon/noscript/
-###### HTTPS Everywhere - https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
-###### User-Agent Switcher and Manager - https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/
-###### ClearURLs - https://addons.mozilla.org/en-US/firefox/addon/clearurls/
-###### Don't track me Google - https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/
-###### Disable WebRTC - https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/
-###### LastPass Password Manager - https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/
+##### Privacy Badger - https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/
+##### uBlock Origin - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+##### NoScript Security Suite - https://addons.mozilla.org/en-US/firefox/addon/noscript/
+##### HTTPS Everywhere - https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+##### User-Agent Switcher and Manager - https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/
+##### ClearURLs - https://addons.mozilla.org/en-US/firefox/addon/clearurls/
+##### Don't track me Google - https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/
+##### Disable WebRTC - https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/
+##### LastPass Password Manager - https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/
 
 <br>
 
@@ -217,11 +217,11 @@
 
 ### Passwords
 
-###### 1. Always create different passwords for different sites
+##### 1. Always create different passwords for different sites
 
-###### 2. Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols
+##### 2. Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols
 
-###### 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
+##### 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
 
 <br>
 
@@ -229,31 +229,31 @@
 ###### Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
 
 #### Delete your Information of Google
-###### 1. https://myaccount.google.com/deleteservices
+##### 1. https://myaccount.google.com/deleteservices
 
-###### 2. https://myactivity.google.com/item
+##### 2. https://myactivity.google.com/item
 
-###### 3. https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity
+##### 3. https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity
 
-###### 4. https://myaccount.google.com/deleteaccount
+##### 4. https://myaccount.google.com/deleteaccount
 
 #### Delete your Information of Facebook
-###### 1. https://m.facebook.com/off_facebook_activity/
+##### 1. https://m.facebook.com/off_facebook_activity/
 
-###### 2. https://www.facebook.com/help/delete_account/
+##### 2. https://www.facebook.com/help/delete_account/
 
 
 #### Create a Fake ID
 
-###### Fake ID - https://datafakegenerator.com/generador.php
+##### Fake ID - https://datafakegenerator.com/generador.php
 
-###### Buy a FAKE National Identity Card, for Online Shopping ONLY - http://lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd.onion/
+##### Buy a FAKE National Identity Card, for Online Shopping ONLY - http://lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd.onion/
 
-###### Onion ProtonMail - https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
+##### Onion ProtonMail - https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
 
-###### Google Account - https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&hl=en_EN&dsh=S671161644%3A1648763270630717&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+##### Google Account - https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&hl=en_EN&dsh=S671161644%3A1648763270630717&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
 
-###### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
+##### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
 
 
 ### Create a CryptoWallet
@@ -296,32 +296,32 @@
 `./run_electrum`
 
 #### Creating a Account
-###### 1. Select where you want to have your Wallet
-###### 2. Set a Password
-###### 3. Select the 'Wallet with two-factor authentication' option
-###### 4. Select the 'Create a new seed' option
-###### 5. Select the 'Segwit' option
-###### 6. Guarde a sua semente num sitio SEGURO.
-###### 7. Paste the Seed
-###### 8. Set a Password
-###### 9. Confirm Password
-###### 10. Select the 'Encrypt wallet file' option
-###### 11. Enter your Email Address
-###### 12. Install Google Authenticator on your Smartphone
-###### 13. Follow the instructions
-###### 14. Click on '+' button
-###### 15. Click in 'Scan barcode'
-###### 16. Scan the QR Code of the Wallet 
-###### 17. Paste the 6-num. Code in Wallet
+##### 1. Select where you want to have your Wallet
+##### 2. Set a Password
+##### 3. Select the 'Wallet with two-factor authentication' option
+##### 4. Select the 'Create a new seed' option
+##### 5. Select the 'Segwit' option
+##### 6. Guarde a sua semente num sitio SEGURO.
+##### 7. Paste the Seed
+##### 8. Set a Password
+##### 9. Confirm Password
+##### 10. Select the 'Encrypt wallet file' option
+##### 11. Enter your Email Address
+##### 12. Install Google Authenticator on your Smartphone
+##### 13. Follow the instructions
+##### 14. Click on '+' button
+##### 15. Click in 'Scan barcode'
+##### 16. Scan the QR Code of the Wallet 
+##### 17. Paste the 6-num. Code in Wallet
 
 #### Buy Bitcoin
-###### 1. Go to "https://bitcoin.org/en/buy"
-###### 1. Set the Amount
-###### 3. Enter your Wallet Address 
-###### 4. Enter your Email Address 
-###### 5. Enter the Verification Code in your Email-Box
-###### 6. Select Select the Check Boxes you want
-###### 7. Set your FAKE Informations
-###### 8. Upload your FAKE National Identify Card
-###### 9. Select the Payment Method
-###### 10. Follow the rest of the instructions.
+##### 1. Go to "https://bitcoin.org/en/buy"
+##### 1. Set the Amount
+##### 3. Enter your Wallet Address 
+##### 4. Enter your Email Address 
+##### 5. Enter the Verification Code in your Email-Box
+##### 6. Select Select the Check Boxes you want
+##### 7. Set your FAKE Informations
+##### 8. Upload your FAKE National Identify Card
+##### 9. Select the Payment Method
+##### 10. Follow the rest of the instructions.
