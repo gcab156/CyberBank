@@ -20,3 +20,45 @@
 
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/computer">Computer Anonymity</a></h5>
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/android">Smartphone Anonymity</a></h5>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+
+<br>
