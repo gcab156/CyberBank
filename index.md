@@ -1,15 +1,15 @@
-<h2> Anonymity on Computer
+## Anonymity on Computer
 
 <br>
 
-### Covering Entries
+#### Covering Entries
 ##### 1. Cover your camera
 ##### 2. Cover the microphone/s
 ##### 3. Remove the GPS card
 
 <br>
 
-### Install some Linux Distro!
+#### Install some Linux Distro!
 
 ###### Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.
 
@@ -178,9 +178,9 @@
 
 ##### 3. Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
 
-<h5> 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
+##### 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
 
-<h5> 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
+##### 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
 
 #### Install Extensions
 ##### Privacy Badger - https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/
@@ -225,7 +225,7 @@
 
 <br>
 
-<h3> Create a new Online Identity
+### Create a new Online Identity
 ###### Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
 
 #### Delete your Information of Google
@@ -264,7 +264,6 @@
 
 
 ##### BlockChain
-
 ###### Blockchain is a distributed ledger technology that aims at decentralization as a security measure. It is a distributed and shared database that has the function of creating a global index for all transactions that occur in a given market. It works like a ledger, but in a public, shared, and universal way, which creates consensus and trust in direct communication between two parties, that is, without the intermediation of third parties such as the government.
 
 
@@ -284,18 +283,13 @@
 
 #### Install python-pip
 `sudo apt-get install python3 && sudo apt-get install python2`
-  
 `sudo apt-get install python3-setuptools python3-pip`
-  
 `python3 -m pip install --user Electrum-4.2.1.tar.gz`
 
 #### Download Package
 `tar -xvf Electrum-4.2.1.tar.gz`
-  
 `cd Electrum-4.2.1/`
-  
 `python3 -m pip install setup.py`
-  
 `chmod +x ./run_electrum`
 
 #### Start CryptoWallet
