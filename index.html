@@ -1,251 +1,327 @@
-<!DOCTYPE html>
+<h2> Anonymity on Computer
 
-<html lang="en">
-<title>Be Anonymous</title>    
-    
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/Website/assets/css/style.css?v=862f3e6cff9aa8d645e83ebd5428191438963ca7">
-        <meta name="generator" content="Jekyll v3.9.0" />
-        <meta property="og:title" content="Be Anonymous" />
-        <meta name="author" content="gcab156" />
-        <meta property="og:locale" content="en_US" />
-        <link rel="canonical" href="https://gcab156.github.io/Website/" />
-        <meta property="og:url" content="https://gcab156.github.io/Website/" />
-        <meta property="og:site_name" content="Be Anonymous" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary" />
-        <meta property="twitter:title" content="Be Anonymous" />
-        <script type="application/ld+json">
-            {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"gcab156"},"headline":"Be Anonymous","name":"Be Anonymous","url":"https://gcab156.github.io/Website/"}
-        </script>
-    </head>
+<br>
 
-    <body style="background-color: black;color: lightgray;">
-        <h2 style="color: whitesmoke;">Anonymity on Computer</h2>
-        
-        <br>
-        
-        <h3 style="color:green"> Covering Entries</h3>
-        <h5 style="color: gray;"> 1. Cover your camera</h5>
-        <h5 style="color: gray;"> 2. Cover the microphone/s</h5>
-        <h5 style="color: gray;"> 3. Remove the GPS card</h5>
-            
-        <br />
-            
-        <h3 style="color:green"> Install some Linux Distro!</h3>
-            
-        <h6 style="color: gray;"> Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.</h6>
-            
-        <br />
-            
-        <h3 style="color:green"> Encrypt your Drive</h3>
-            
-        <h6 style="color: gray;"> When installing a linux system, you will always find an option to encrypt the disk on which the operating system will be installed. For maximum security, you should enable this option, thus creating a strong password, with uppercase and lowercase letters, numbers and symbols.</h6>
-            
-        <br>
+<h3> Covering Entries
+<h5> 1. Cover your camera
+<h5> 2. Cover the microphone/s
+<h5> 3. Remove the GPS card
 
-        <h3 style="color: green;">Change MAC Address</h3>
-        <h6 style="color: gray;">A MAC Address is a number used to uniquely identify your device on the local network segment. The address is (and needs to be) visible to everyone on the network segment, but because of the way network routing works, it is usually not visible to anyone.</h6>
-            <code style="color: #a85a15;">
-                <p>ifconfig</p>
-                <p>ifconfig {network card} down</p>
-                <p>macchanger {network card} --mac=00:11:22:33:44:55 <b style="color: gray;"># UNIX MAC Address</p></b>
-                <p>ifconfig {network card} up</p>
-            </code>
-        
-            <p><br /></p>
-            
-            
-            
-            
-            
-            
-            
-            <p><h3 style="color: green;"> Install UFW Firewall</p>
-            <p><h6 style="color: gray;"> UFW, or Uncomplicated Firewall, is an interface to iptables designed to simplify the process of setting up a firewall. UFW is a solid and flexible tool for any kind of user, whether a beginner or a professional.</p>
-            <h4 id="gather-the-binaries" style="color: lightgreen;">Gather the Binaries</h4>
-            <p><code style="color: #a85a15;">apt-get install ufw -y</code></p>
-            <h4 id="activate-ipv6" style="color: lightgreen;">Activate IPv6</h4>
-            <p><code style="color: #a85a15;">sudo vi /etc/default/ufw</code></p>
-            <p><code style="color: #a85a15;"># In &quot;IPV6=no&quot; you change for &quot;IPV6=yes&quot;</code></p>
-            <h4 id="configuring-policies" style="color: lightgreen;">Configuring Policies</h4>
-            <p><code style="color: #a85a15;">sudo ufw default deny incoming</code></p>
-            <p><code style="color: #a85a15;">sudo ufw default allow outgoing</code></p>
-            <h4 id="enable-ssh-connections" style="color: lightgreen;">Enable SSH connections</h4>
-            <p><code style="color: #a85a15;">sudo ufw allow ssh</code></p>
-            <p><code style="color: #a85a15;">sudo ufw allow 22</code></p>
-            <p><code style="color: #a85a15;">sudo ufw allow 2222</code></p>
-            <h4 id="enable-ufw-firewall" style="color: lightgreen;">Enable UFW Firewall</h4>
-            <p><code style="color: #a85a15;">sudo ufw enable</code></p>
-            <p><code style="color: #a85a15;">sudo ufw status verbose</code></p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Install NoIP Service</p>
-            <p><h6 style="color: gray;"> No-IP provides dynamic DNS services . A basic one is provided free of charge, as long as the user updates his access from time to time, keeping it active. Upgrades to DDNS come with purchases. Dynamic IP addresses are common in residential cable or DSL broadband accounts, and typical DDNS users would be users of these types of Internet connections. The service allows users to create up to three host names in a No-IP domain. Software clients are provided for Windows, OS X and Linux, which allows DDNS to connect to these operating systems. More often, however, routers are used in such DDNS setups.</p>
-            <h4 id="create-account" style="color: lightgreen;">Create Account</h4>
-            <ul>
-            <li style="color: grey;">Go to the NoIP website and create an account</li>
-            <li style="color: grey;">Check your email for the verification and click the link.</li>
-            <li style="color: grey;">Log out / Log in again and create a userid</li>
-            <li style="color: grey;">Create a DynDNS entry</li>
-            </ul>
-            <h4 id="gather-the-binaries" style="color: lightgreen;">Gather the Binaries</h4>
-            <p><code style="color: #a85a15;">sudo apt-get update</code></p>
-            <p><code style="color: #a85a15;">sudo apt-get install make gcc g++ zlib1g-dev</code></p>
-            <p><code style="color: #a85a15;">sudo bash</code></p>
-            <p><code style="color: #a85a15;">cd /usr/local/src/</code></p>
-            <p><code style="color: #a85a15;">wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz</code></p>
-            <p><code style="color: #a85a15;">tar xf noip-duc-linux.tar.gz</code></p>
-            <p><code style="color: #a85a15;">cd noip-2.1.9-1/</code></p>
-            <p><code style="color: #a85a15;">make install</code></p>
-            <p><code style="color: #a85a15;">Select your Network Card</code></p>
-            <p><code style="color: #a85a15;">Set your Login Info</code></p>
-            <p><code style="color: #a85a15;">noip2</code></p>
-            <p><code style="color: #a85a15;">exit</code></p>
-            <h4 id="configure-noip-service" style="color: lightgreen;">Configure NoIP Service</h4>
-            <p><code style="color: #a85a15;">sudo noip2 -S</code></p>
-            <p><code style="color: #a85a15;">sudo noip2 -K {process_num}</code></p>
-            <p><code style="color: #a85a15;">cd ~/src</code></p>
-            <p><code style="color: #a85a15;">repo=https://gist.github.com/NathanGiesbrecht/da6560f21e55178bcea7fdd9ca2e39b5</code></p>
-            <p><code style="color: #a85a15;">git clone $repo noip.svc</code></p>
-            <p><code style="color: #a85a15;">cd ~/src/noip.svc</code></p>
-            <p><code style="color: #a85a15;">sudo cp noip2.service /etc/systemd/system</code></p>
-            <h4 id="enable-noip-service" style="color: lightgreen;">Enable NoIP Service</h4>
-            <p><code style="color: #a85a15;">sudo systemctl enable noip2</code>
-            <code style="color: #a85a15;">sudo systemctl start noip2</code></p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Install I2P Service</p>
-            <p><h6 style="color: gray;"> I2P is an overlay network and darknet that allows software applications to send and receive messages to others on the network and securely under pseudonyms. Uses include websites, blogs, online sales sites, and file transfer. Since I2P is an anonymous network, it is designed to be used by other software as a communication channel. And so there are a variety of applications available or under development that use I2P internally.</p>
-            <h4 id="gather-the-binaries" style="color: lightgreen;">Gather the Binaries</h4>
-            <p><code style="color: #a85a15;">sudo apt-add-repository ppa:i2p-maintainers/i2p</code></p>
-            <p><code style="color: #a85a15;">sudo apt-get update</code></p>
-            <p><code style="color: #a85a15;">sudo apt-get install i2p</code></p>
-            <p><code style="color: #a85a15;">systemctl status i2p.service</code></p>
-            <h4 id="handle-hosts-file" style="color: lightgreen;">Handle hosts file</h4>
-            <p><code style="color: #a85a15;">sudo systemctl stop lighttpd.service</code></p>
-            <p><code style="color: #a85a15;">sudo systemctl stop i2p.service</code></p>
-            <p><code style="color: #a85a15;">sudo chown i2psvc:www-data ~i2psvc/i2p-config/eepsite/docroot/hosts.txt</code></p>
-            <p><code style="color: #a85a15;">sudo ln -s ~i2psvc/i2p-config/eepsite/docroot/hosts.txt ~www-data/html/hosts.txt</code></p>
-            <h4 id="start-service" style="color: lightgreen;">Start Service</h4>
-            <p><code style="color: #a85a15;">sudo systemctl start lighttpd.service</code></p>
-            <p><code style="color: #a85a15;">sudo systemctl start i2p.service</code></p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Install TOR Network</p>
-            <p><h6 style="color: gray;"> Tor Network is a service that provides a browser, bridges, and proxies for users to access the Internet with as much privacy as possible. Tor routes traffic through multiple servers and encrypts it every step of the way. The Tor Network is a decentralized service, meaning that the Tor Network can be operated by entities with diverse interests and assumptions of trust... and is thus an open source service.</p>
-            <h4 id="install-tor-service" style="color: lightgreen;">Install Tor Service</h4>
-            <p><code style="color: #a85a15;">sudo apt-get install tor</code></p>
-            <h4 id="install-tor-browser" style="color: lightgreen;">Install Tor Browser</h4>
-            <p><code style="color: #a85a15;">sudo apt-get install torbrowser-launcher</code></p>
-            <h4 id="start-tor-service" style="color: lightgreen;">Start Tor Service</h4>
-            <p><code style="color: #a85a15;">sudo service tor start</code></p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Configure Tor Browser</p>
-            <p><h4 style="color: lightgreen;"> Settings</p>
-            <p><h5 style="color: gray;"> 1. Go to &quot;about:preferences#search&quot; and select &#39;DuckDuckGoOnion&#39; in the &#39;Default Search Engine&#39;</p>
-            <p><h5 style="color: gray;"> 2. Go to &quot;about:preferences#privacy&quot; and select the &#39;Always&#39; option in &#39;Onion services&#39;</p>
-            <p><h5 style="color: gray;"> 3. Still in &quot;about:preferences#privacy&quot; go to &#39;Permissions&#39; and in each of the options go to &#39;Settings...&#39; and select &#39;Block new requests asking to...&#39;</p>
-            <p><h5 style="color: gray;"> 4. Also in &quot;about:preferences#privacy&quot; scroll down to &#39;Security&#39; and select the &#39;Safer&#39; option, because the &#39;Safest&#39; option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.</p>
-            <p><h5 style="color: gray;"> 5. To end up in &quot;about:preferences#privacy&quot; go to &#39;Deceptive Content and Dangerous Software Protection&#39; and enable the options &#39;Block Dangerous and Deceptive Content&#39; , &#39;Block Dangerous downloads&#39; and &#39;Warn you about Unindeseed and Uncommonmon Software&#39;</p>
-            <h4 id="install-extensions" style="color: lightgreen;">Install Extensions</h4>
-            <h5 id="privacy-badger-https-addons-mozilla-org-en-us-firefox-addon-privacy-badger17-" style="color: orange;">Privacy Badger - <a href="https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/">https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/</a></h5>
-            <h5 id="ublock-origin-https-addons-mozilla-org-en-us-firefox-addon-ublock-origin-" style="color: red;">uBlock Origin - <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/</a></h5>
-            <h5 id="noscript-security-suite-https-addons-mozilla-org-en-us-firefox-addon-noscript-" style="color: red;">NoScript Security Suite - <a href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">https://addons.mozilla.org/en-US/firefox/addon/noscript/</a></h5>
-            <h5 id="https-everywhere-https-addons-mozilla-org-en-us-firefox-addon-https-everywhere-" style="color: blue;">HTTPS Everywhere - <a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/</a></h5>
-            <h5 id="user-agent-switcher-and-manager-https-addons-mozilla-org-en-us-firefox-addon-user-agent-string-switcher-" style="color: orange;">User-Agent Switcher and Manager - <a href="https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/">https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/</a></h5>
-            <h5 id="clearurls-https-addons-mozilla-org-en-us-firefox-addon-clearurls-" style="color: orange;">ClearURLs - <a href="https://addons.mozilla.org/en-US/firefox/addon/clearurls/">https://addons.mozilla.org/en-US/firefox/addon/clearurls/</a></h5>
-            <h5 id="don-t-track-me-google-https-addons-mozilla-org-en-us-firefox-addon-dont-track-me-google1-" style="color: white;">Don&#39;t track me Google - <a href="https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/">https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/</a></h5>
-            <h5 id="disable-webrtc-https-addons-mozilla-org-en-us-firefox-addon-happy-bonobo-disable-webrtc-" style="color: green;">Disable WebRTC - <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/">https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/</a></h5>
-            <h5 id="lastpass-password-manager-https-addons-mozilla-org-en-us-firefox-addon-lastpass-password-manager-" style="color: red;">LastPass Password Manager - <a href="https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/">https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/</a></h5>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Install Anonsurf VPN</p>
-            <p><h6 style="color: gray;"> This script is designed to provide users with system-wide anonymization. In simpler words, anything you do while Anonsurf is started on your system would be almost untraceable. Anonsurf not only routes all your traffic through Tor, but also allows you to start i2p services and clean up any traces left on the user&#39;s disk. Anonsurf also deletes all dangerous applications by virtue of the Pandora bomb.</p>
-            <h4 id="gather-the-binaries" style="color: lightgreen;">Gather the Binaries</h4>
-            <p><code style="color: #a85a15;">git clone https://github.com/Und3rf10w/kali-anonsurf.git</code></p>
-            <h4 id="install-the-binaries" style="color: lightgreen;">Install the Binaries</h4>
-            <p><code style="color: #a85a15;">chmod +x *</code></p>
-            <p><code style="color: #a85a15;">sudo bash ./installer.sh</code></p>
-            <h4 id="start-anonsurf" style="color: lightgreen;">Start Anonsurf</h4>
-            <p style="color: grey;"><code style="color: #a85a15;">anonsurf start</code> # Only turn Anonsurf on after you open Tor Browser... unfortunately with Anonsurf turned on afterwards you will not be able to connect to Tor Browser.</p>
-            <h4 id="view-all-commands" style="color: lightgreen;">View all Commands</h4>
-            <p><code style="color: #a85a15;">anonsurf</code></p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Passwords</p>
-            <p><h5 style="color: gray;"> 1. Always create different passwords for different sites</p>
-            <p><h5 style="color: gray;"> 2. Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols</p>
-            <p><h5 style="color: gray;"> 3. Use a good Password Manager like &quot;LastPass Password Manager&quot; or &quot;Bitwarden - Free Password Manager&quot;</p>
-            <p><br /></p>
-            <p><h3 style="color: green;"> Create a new Online Identity</p>
-            <p><h6 style="color: gray;"> Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new &quot;Person&quot; online, so that you can hide who you really are</p>
-            <h4 id="delete-your-information-of-google" style="color: lightgreen;">Delete your Information of Google</h4>
-            <h5 id="1-https-myaccount-google-com-deleteservices" style="color: gray;">1. <a href="https://myaccount.google.com/deleteservices">https://myaccount.google.com/deleteservices</a></h5>
-            <h5 id="2-https-myactivity-google-com-item" style="color: gray;">2. <a href="https://myactivity.google.com/item">https://myactivity.google.com/item</a></h5>
-            <h5 id="3-https-myaccount-google-com-permissions-continue-https-3a-2f-2fmyaccount-google-com-2fsecurity" style="color: gray;">3. <a href="https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity">https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity</a></h5>
-            <h5 id="4-https-myaccount-google-com-deleteaccount" style="color: gray;">4. <a href="https://myaccount.google.com/deleteaccount">https://myaccount.google.com/deleteaccount</a></h5>
-            <h4 id="delete-your-information-of-facebook" style="color: lightgreen;">Delete your Information of Facebook</h4>
-            <h5 id="1-https-m-facebook-com-off_facebook_activity-" style="color: gray;">1. <a href="https://m.facebook.com/off_facebook_activity/">https://m.facebook.com/off_facebook_activity/</a></h5>
-            <h5 id="2-https-www-facebook-com-help-delete_account-" style="color: gray;">2. <a href="https://www.facebook.com/help/delete_account/">https://www.facebook.com/help/delete_account/</a></h5>
-            <h4 id="create-a-fake-id" style="color: lightgreen;">Create a Fake ID</h4>
-            <h5 id="fake-id-https-datafakegenerator-com-generador-php" style="color: gray;">Fake ID - <a href="https://datafakegenerator.com/generador.php">https://datafakegenerator.com/generador.php</a></h5>
-            <h5 id="buy-a-fake-national-identity-card-for-online-shopping-only-http-lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd-onion-" style="color: gray;">Buy a FAKE National Identity Card, for Online Shopping ONLY - <a href="http://lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd.onion/">http://lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd.onion/</a></h5>
-            <h5 id="onion-protonmail-https-protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd-onion-" style="color: gray;">Onion ProtonMail - <a href="https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/">https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/</a></h5>
-            <h5 id="google-account-https-accounts-google-com-signup-v2-webcreateaccount-continue-https-3a-2f-2faccounts-google-com-2f-3fhl-3den-en-amp-hl-en_en-amp-dsh-s671161644-3a1648763270630717-amp-biz-false-amp-flowname-glifwebsignin-amp-flowentry-signup" style="color: gray;">Google Account - <a href="https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&amp;hl=en_EN&amp;dsh=S671161644%3A1648763270630717&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp">https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&amp;hl=en_EN&amp;dsh=S671161644%3A1648763270630717&amp;biz=false&amp;flowName=GlifWebSignIn&amp;flowEntry=SignUp</a></h5>
-            <h5 id="onion-facebook-https-www-facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd-onion-" style="color: gray;">Onion Facebook - <a href="https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/">https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/</a></h5>
-            <p><h3 style="color: green;"> Create a CryptoWallet</p>
-            <p><h5 style="color:lightcoral"> Cryptocurrencies</p>
-            <p><h6 style="color: gray;"> A cryptocurrency is a medium of exchange, which can be centralized or decentralized that uses blockchain technology and cryptography to ensure the validity of transactions and the creation of new units of the currency.</p>
-            <p><h5 style="color:lightcoral"> BlockChain</p>
-            <p><h6 style="color: gray;"> Blockchain is a distributed ledger technology that aims at decentralization as a security measure. It is a distributed and shared database that has the function of creating a global index for all transactions that occur in a given market. It works like a ledger, but in a public, shared, and universal way, which creates consensus and trust in direct communication between two parties, that is, without the intermediation of third parties such as the government.</p>
-            <p><h5 style="color:lightcoral"> Bitcoin</p>
-            <p><h6 style="color: gray;"> Bitcoin allows financial transactions without intermediaries, but verified by all users of the network, which are recorded in a blockchain. Bitcoin is a decentralized network, that is, a structure without a central managing entity, which makes it impossible for any financial or governmental authority to manipulate the issuance and value of the cryptocurrency or to induce inflation by producing more money.</p>
-            <p><h5 style="color:lightcoral"> Ethereum</p>
-            <p><h6 style="color: gray;"> Ethereum is a decentralized platform capable of running smart contracts and decentralized applications using blockchain technology. These are applications that run exactly as programmed without any possibility of censorship, fraud, or interference from third parties, because the contract is immutable.</p>
-            <h4 id="install-dependencies" style="color: lightgreen;">Install Dependencies</h4>
-            <p><code style="color: #a85a15;">https://download.electrum.org/4.2.1/Electrum-4.2.1.tar.gz</code></p>
-            <h4 id="install-python-pip" style="color: lightgreen;">Install python-pip</h4>
-            <p><code style="color: #a85a15;">sudo apt-get install python3 &amp;amp;&amp;amp; sudo apt-get install python2</code>
-            <code style="color: #a85a15;">sudo apt-get install python3-setuptools python3-pip</code>
-            <code style="color: #a85a15;">python3 -m pip install --user Electrum-4.2.1.tar.gz</code></p>
-            <h4 id="download-package" style="color: lightgreen;">Download Package</h4>
-            <p><code style="color: #a85a15;">tar -xvf Electrum-4.2.1.tar.gz</code>
-            <code style="color: #a85a15;">cd Electrum-4.2.1/</code>
-            <code style="color: #a85a15;">python3 -m pip install setup.py</code>
-            <code style="color: #a85a15;">chmod +x ./run_electrum</code></p>
-            <h4 id="start-cryptowallet" style="color: lightgreen;">Start CryptoWallet</h4>
-            <p><code style="color: #a85a15;">./run_electrum</code></p>
-            <p><h4 style="color: lightgreen;"> Creating a Account</p>
-            <p><h5 style="color: gray;"> 1. Select where you want to have your Wallet</p>
-            <p><h5 style="color: gray;"> 2. Set a Password</p>
-            <p><h5 style="color: gray;"> 3. Select the &#39;Wallet with two-factor authentication&#39; option</p>
-            <p><h5 style="color: gray;"> 4. Select the &#39;Create a new seed&#39; option</p>
-            <p><h5 style="color: gray;"> 5. Select the &#39;Segwit&#39; option</p>
-            <p><h5 style="color: gray;"> 6. Guarde a sua semente num sitio SEGURO.</p>
-            <p><h5 style="color: gray;"> 7. Paste the Seed</p>
-            <p><h5 style="color: gray;"> 8. Set a Password</p>
-            <p><h5 style="color: gray;"> 9. Confirm Password</p>
-            <p><h5 style="color: gray;"> 10. Select the &#39;Encrypt wallet file&#39; option</p>
-            <p><h5 style="color: gray;"> 11. Enter your Email Address</p>
-            <p><h5 style="color: gray;"> 12. Install Google Authenticator on your Smartphone</p>
-            <p><h5 style="color: gray;"> 13. Follow the instructions</p>
-            <p><h5 style="color: gray;"> 14. Click on &#39;+&#39; button</p>
-            <p><h5 style="color: gray;"> 15. Click in &#39;Scan barcode&#39;</p>
-            <p><h5 style="color: gray;"> 16. Scan the QR Code of the Wallet </p>
-            <p><h5 style="color: gray;"> 17. Paste the 6-num. Code in Wallet</p>
-            <h4 id="buy-bitcoin" style="color: lightgreen;">Buy Bitcoin</h4>
-            <h5 id="1-go-to-https-bitcoin-org-en-buy-" style="color: gray;">1. Go to &quot;<a href="https://bitcoin.org/en/buy">https://bitcoin.org/en/buy</a>&quot;</h5>
-            <p><h5 style="color: gray;"> 1. Set the Amount</p>
-            <p><h5 style="color: gray;"> 3. Enter your Wallet Address </p>
-            <p><h5 style="color: gray;"> 4. Enter your Email Address </p>
-            <p><h5 style="color: gray;"> 5. Enter the Verification Code in your Email-Box</p>
-            <p><h5 style="color: gray;"> 6. Select Select the Check Boxes you want</p>
-            <p><h5 style="color: gray;"> 7. Set your FAKE Informations</p>
-            <p><h5 style="color: gray;"> 8. Upload your FAKE National Identify Card</p>
-            <p><h5 style="color: gray;"> 9. Select the Payment Method</p>
-            <p><h5 style="color: gray;"> 10. Follow the rest of the instructions.
-            </h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h5></h4></h6></h5></h6></h5></h6></h5></h6></h5></h3></h6></h3></h5></h5></h5></h3></h6></h3></h5></h5></h5></h5></h5></h4></h3></h6></h3></h6></h3></h6></h3></h6></h3></h6></h3></h6></h3></h5></h5></h5></h3></h2></p>
+<br>
+
+<h3> Install some Linux Distro!
+
+<h6> Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.
+
+<br>
+
+<h3> Encrypt your Drive
+
+<h6> When installing a linux system, you will always find an option to encrypt the disk on which the operating system will be installed. For maximum security, you should enable this option, thus creating a strong password, with uppercase and lowercase letters, numbers and symbols.
+
+<br>
+
+### Change MAC Address
+
+`ifconfig`
+
+`ifconfig {network card} down`
+
+`macchanger {network card} --mac=00:11:22:33:44:55` # UNIX MAC Address
+
+`ifconfig {network card} up`
+
+<br>
+
+<h3> Install UFW Firewall
+
+<h6> UFW, or Uncomplicated Firewall, is an interface to iptables designed to simplify the process of setting up a firewall. UFW is a solid and flexible tool for any kind of user, whether a beginner or a professional.
+
+#### Gather the Binaries
+`apt-get install ufw -y`
+
+#### Activate IPv6
+`sudo vi /etc/default/ufw`
+
+`# In "IPV6=no" you change for "IPV6=yes"`
+
+#### Configuring Policies
+`sudo ufw default deny incoming`
+
+`sudo ufw default allow outgoing`
+
+#### Enable SSH connections
+`sudo ufw allow ssh`
+
+`sudo ufw allow 22`
+
+`sudo ufw allow 2222`
+
+#### Enable UFW Firewall
+`sudo ufw enable`
+
+`sudo ufw status verbose`
+
+<br>
+
+<h3> Install NoIP Service
+
+<h6> No-IP provides dynamic DNS services . A basic one is provided free of charge, as long as the user updates his access from time to time, keeping it active. Upgrades to DDNS come with purchases. Dynamic IP addresses are common in residential cable or DSL broadband accounts, and typical DDNS users would be users of these types of Internet connections. The service allows users to create up to three host names in a No-IP domain. Software clients are provided for Windows, OS X and Linux, which allows DDNS to connect to these operating systems. More often, however, routers are used in such DDNS setups.
+
+#### Create Account
+* Go to the NoIP website and create an account
+* Check your email for the verification and click the link.
+* Log out / Log in again and create a userid
+* Create a DynDNS entry
+
+#### Gather the Binaries
+
+`sudo apt-get update`
+
+`sudo apt-get install make gcc g++ zlib1g-dev`
+
+`sudo bash`
+
+`cd /usr/local/src/`
+
+`wget http://www.no-ip.com/client/linux/noip-duc-linux.tar.gz`
+
+`tar xf noip-duc-linux.tar.gz`
+
+`cd noip-2.1.9-1/`
+
+`make install`
+
+`Select your Network Card`
+
+`Set your Login Info`
+
+`noip2`
+
+`exit`
+
+#### Configure NoIP Service
+
+`sudo noip2 -S`
+
+`sudo noip2 -K {process_num}`
+
+`cd ~/src`
+
+`repo=https://gist.github.com/NathanGiesbrecht/da6560f21e55178bcea7fdd9ca2e39b5`
+
+`git clone $repo noip.svc`
+
+`cd ~/src/noip.svc`
+
+`sudo cp noip2.service /etc/systemd/system`
+
+#### Enable NoIP Service
+
+`sudo systemctl enable noip2`
+`sudo systemctl start noip2`
+
+<br>
+
+<h3> Install I2P Service
+
+<h6> I2P is an overlay network and darknet that allows software applications to send and receive messages to others on the network and securely under pseudonyms. Uses include websites, blogs, online sales sites, and file transfer. Since I2P is an anonymous network, it is designed to be used by other software as a communication channel. And so there are a variety of applications available or under development that use I2P internally.
+
+#### Gather the Binaries
+`sudo apt-add-repository ppa:i2p-maintainers/i2p`
+
+`sudo apt-get update`
+
+`sudo apt-get install i2p`
+
+`systemctl status i2p.service`
+
+#### Handle hosts file
+`sudo systemctl stop lighttpd.service`
+
+`sudo systemctl stop i2p.service`
+
+`sudo chown i2psvc:www-data ~i2psvc/i2p-config/eepsite/docroot/hosts.txt`
+
+`sudo ln -s ~i2psvc/i2p-config/eepsite/docroot/hosts.txt ~www-data/html/hosts.txt`
+
+#### Start Service
+`sudo systemctl start lighttpd.service`
+
+`sudo systemctl start i2p.service`
+
+<br>
+
+<h3> Install TOR Network
+
+<h6> Tor Network is a service that provides a browser, bridges, and proxies for users to access the Internet with as much privacy as possible. Tor routes traffic through multiple servers and encrypts it every step of the way. The Tor Network is a decentralized service, meaning that the Tor Network can be operated by entities with diverse interests and assumptions of trust... and is thus an open source service.
+
+#### Install Tor Service
+`sudo apt-get install tor`
+
+#### Install Tor Browser
+`sudo apt-get install torbrowser-launcher`
+
+#### Start Tor Service
+`sudo service tor start`
+
+<br>
+
+<h3> Configure Tor Browser
+
+<h4> Settings
+
+<h5> 1. Go to "about:preferences#search" and select 'DuckDuckGoOnion' in the 'Default Search Engine'
+
+<h5> 2. Go to "about:preferences#privacy" and select the 'Always' option in 'Onion services'
+
+<h5> 3. Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
+
+<h5> 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
+
+<h5> 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
+
+#### Install Extensions
+##### Privacy Badger - https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/
+##### uBlock Origin - https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+##### NoScript Security Suite - https://addons.mozilla.org/en-US/firefox/addon/noscript/
+##### HTTPS Everywhere - https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/
+##### User-Agent Switcher and Manager - https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/
+##### ClearURLs - https://addons.mozilla.org/en-US/firefox/addon/clearurls/
+##### Don't track me Google - https://addons.mozilla.org/en-US/firefox/addon/dont-track-me-google1/
+##### Disable WebRTC - https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/
+##### LastPass Password Manager - https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/
+
+<br>
+
+<h3> Install Anonsurf VPN
+
+<h6> This script is designed to provide users with system-wide anonymization. In simpler words, anything you do while Anonsurf is started on your system would be almost untraceable. Anonsurf not only routes all your traffic through Tor, but also allows you to start i2p services and clean up any traces left on the user's disk. Anonsurf also deletes all dangerous applications by virtue of the Pandora bomb.
+
+#### Gather the Binaries
+`git clone https://github.com/Und3rf10w/kali-anonsurf.git`
+
+#### Install the Binaries
+`chmod +x *`
+
+`sudo bash ./installer.sh`
+
+#### Start Anonsurf
+`anonsurf start` # Only turn Anonsurf on after you open Tor Browser... unfortunately with Anonsurf turned on afterwards you will not be able to connect to Tor Browser.
+
+#### View all Commands
+`anonsurf`
+
+<br>
+
+<h3> Passwords
+
+<h5> 1. Always create different passwords for different sites
+
+<h5> 2. Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols
+
+<h5> 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
+
+<br>
+
+<h3> Create a new Online Identity
+<h6> Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
+
+#### Delete your Information of Google
+##### 1. https://myaccount.google.com/deleteservices
+
+##### 2. https://myactivity.google.com/item
+
+##### 3. https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity
+
+##### 4. https://myaccount.google.com/deleteaccount
+
+#### Delete your Information of Facebook
+##### 1. https://m.facebook.com/off_facebook_activity/
+
+##### 2. https://www.facebook.com/help/delete_account/
 
 
+#### Create a Fake ID
 
-    </body>
-</html>
+##### Fake ID - https://datafakegenerator.com/generador.php
+
+##### Buy a FAKE National Identity Card, for Online Shopping ONLY - http://lqcjo7esbfog5t4r4gyy7jurpzf6cavpfmc4vkal4k2g4ie66ao5mryd.onion/
+
+##### Onion ProtonMail - https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion/
+
+##### Google Account - https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&hl=en_EN&dsh=S671161644%3A1648763270630717&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
+
+##### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
+
+
+<h3> Create a CryptoWallet
+
+<h5> Cryptocurrencies
+
+<h6> A cryptocurrency is a medium of exchange, which can be centralized or decentralized that uses blockchain technology and cryptography to ensure the validity of transactions and the creation of new units of the currency.
+
+
+<h5> BlockChain
+
+<h6> Blockchain is a distributed ledger technology that aims at decentralization as a security measure. It is a distributed and shared database that has the function of creating a global index for all transactions that occur in a given market. It works like a ledger, but in a public, shared, and universal way, which creates consensus and trust in direct communication between two parties, that is, without the intermediation of third parties such as the government.
+
+
+<h5> Bitcoin
+
+<h6> Bitcoin allows financial transactions without intermediaries, but verified by all users of the network, which are recorded in a blockchain. Bitcoin is a decentralized network, that is, a structure without a central managing entity, which makes it impossible for any financial or governmental authority to manipulate the issuance and value of the cryptocurrency or to induce inflation by producing more money.
+
+
+<h5> Ethereum
+
+<h6> Ethereum is a decentralized platform capable of running smart contracts and decentralized applications using blockchain technology. These are applications that run exactly as programmed without any possibility of censorship, fraud, or interference from third parties, because the contract is immutable.
+
+
+
+#### Install Dependencies
+`https://download.electrum.org/4.2.1/Electrum-4.2.1.tar.gz`
+
+#### Install python-pip
+`sudo apt-get install python3 && sudo apt-get install python2`
+`sudo apt-get install python3-setuptools python3-pip`
+`python3 -m pip install --user Electrum-4.2.1.tar.gz`
+
+#### Download Package
+`tar -xvf Electrum-4.2.1.tar.gz`
+`cd Electrum-4.2.1/`
+`python3 -m pip install setup.py`
+`chmod +x ./run_electrum`
+
+#### Start CryptoWallet
+`./run_electrum`
+
+<h4> Creating a Account
+<h5> 1. Select where you want to have your Wallet
+<h5> 2. Set a Password
+<h5> 3. Select the 'Wallet with two-factor authentication' option
+<h5> 4. Select the 'Create a new seed' option
+<h5> 5. Select the 'Segwit' option
+<h5> 6. Guarde a sua semente num sitio SEGURO.
+<h5> 7. Paste the Seed
+<h5> 8. Set a Password
+<h5> 9. Confirm Password
+<h5> 10. Select the 'Encrypt wallet file' option
+<h5> 11. Enter your Email Address
+<h5> 12. Install Google Authenticator on your Smartphone
+<h5> 13. Follow the instructions
+<h5> 14. Click on '+' button
+<h5> 15. Click in 'Scan barcode'
+<h5> 16. Scan the QR Code of the Wallet 
+<h5> 17. Paste the 6-num. Code in Wallet
+
+#### Buy Bitcoin
+##### 1. Go to "https://bitcoin.org/en/buy"
+<h5> 1. Set the Amount
+<h5> 3. Enter your Wallet Address 
+<h5> 4. Enter your Email Address 
+<h5> 5. Enter the Verification Code in your Email-Box
+<h5> 6. Select Select the Check Boxes you want
+<h5> 7. Set your FAKE Informations
+<h5> 8. Upload your FAKE National Identify Card
+<h5> 9. Select the Payment Method
+<h5> 10. Follow the rest of the instructions.
