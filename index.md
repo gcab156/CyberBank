@@ -12,18 +12,17 @@
 
 
 
-
-
-
-
-
 <br>
+
 
 
 ## Anonymity on Computer
 
-    
+
+
 <br>
+
+
 
 #### Covering Entries
 ###### 1. Cover your camera
@@ -31,7 +30,9 @@
 ###### 3. Remove the GPS card
 
 
+
 <br>
+
 
 
 ### Router Security
@@ -44,56 +45,45 @@
 
 
 
-
-
-
 <br>
+
 
 
 ### Install some Linux Distro!
 
 ###### Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.
 
+
+
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
 ### Encrypt your Drive
+###### Cryptography deals with the construction and analysis of protocols that prevent third parties from reading private messages. Various aspects of information security , such as confidentiality , integrity and authentication of data are central to cryptography. Applications of cryptography include e-commerce , chip-based payment cards , digital currencies , computer passwords and passworded folders.
 
 ###### When installing a linux system, you will always find an option to encrypt the disk on which the operating system will be installed. For maximum security, you should enable this option, thus creating a strong password, with uppercase and lowercase letters, numbers and symbols.
 
+
+
 <br>
+
+
 
 ### Change MAC Address
 ###### A MAC Address is a number used to uniquely identify your device on the local network segment. The address is (and needs to be) visible to everyone on the network segment, but because of the way network routing works, it is usually not visible to anyone.
 
 `ifconfig`
 
-`ifconfig {network card} down`
+`ifconfig <network card> down`
 
-`macchanger {network card} --mac=00:11:22:33:44:55` # UNIX MAC Address
+`macchanger <network card> --mac=00:11:22:33:44:55` # UNIX MAC Address
 
-`ifconfig {network card} up`
+`ifconfig <network card> up`
+
+
 
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -126,16 +116,9 @@
 
 `sudo ufw status verbose`
 
+
+
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -197,16 +180,9 @@
 
 `sudo systemctl start noip2`
 
+
+
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -237,16 +213,9 @@
 
 `sudo systemctl start i2p.service`
 
+
+
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -263,12 +232,9 @@
 #### Start Tor Service
 `sudo service tor start`
 
+
+
 <br>
-
-
-
-
-
 
 
 
@@ -297,14 +263,9 @@
 ###### Disable WebRTC - https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/
 ###### LastPass Password Manager - https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/
 
+
+
 <br>
-
-
-
-
-
-
-
 
 
 
@@ -326,12 +287,9 @@
 #### View all Commands
 `anonsurf`
 
+
+
 <br>
-
-
-
-
-
 
 
 
@@ -343,14 +301,55 @@
 
 ###### 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
 
+
+
 <br>
 
 
 
+### Create a Encrypted Folder
+#### Gather the Binaries
+`sudo add-apt-repository ppa:gencfsm `
+
+#### Install Binaries
+`sudo apt update`
+
+`sudo apt install gnome-encfs-manager`
+
+#### Create a Folder
+`gnome-encfs-manager create_stash <Directory to Encrypt> <Mount directory>`
+
+##### Example:
+`gnome-encfs-manager create_stash /home/username/.Encrypt /home/username/Encrypt`
+
+#### Unmount Folder
+`gnome-encfs-manager unmount <Mount directory>` # A folder becomes Invisible
+
+#### Mount Folder
+`gnome-encfs-manager mount <Mount directory>` # A folder becomes Visible
 
 
 
+<br>
 
+
+
+### Create a Encrypted Notes
+#### Gather the Binaries
+`sudo add-apt-repository ppa:nilarimogard/webupd8`
+
+
+#### Install Binaries
+`sudo apt-get update`
+
+`sudo apt install encryptpad encryptcli`
+
+#### Start EncryptPad
+`encryptpad`
+
+
+
+<br>
 
 
 
@@ -384,16 +383,9 @@
 
 ###### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
 
+
+
 <br>
-
-
-
-
-
-
-
-
-
 
 
 
