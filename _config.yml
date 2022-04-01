@@ -1,6 +1,7 @@
 # ---> Site <--- #
 theme: jekyll-theme-hacker
 title: Be Anonymous
+avatar: "/assets/img/icon.png"
 
 
 # ---> Author <--- #
