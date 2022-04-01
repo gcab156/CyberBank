@@ -445,3 +445,34 @@
 ###### 8. Upload your FAKE National Identify Card
 ###### 9. Select the Payment Method
 ###### 10. Follow the rest of the instructions.
+
+
+
+<br>
+
+
+
+### Clean Cache/Temp Data
+#### Gathering the Binnaries
+###### 1. Download from 'https://www.bleachbit.org/download/linux'
+
+#### Install Deb File
+`sudo dpkg --install <deb file name>`
+
+#### Start Programm
+`bleachbit`
+
+#### Selection
+###### 1. Autoclean
+###### 2. Autoremove
+###### 3. Clean
+###### 4. Cache
+###### 5. Vacuum
+###### 6. Temporary Files
+###### 7. Free Disk Space
+###### 8. Localizations
+###### 9. Rotated logs
+###### 10. Trash
+
+#### Clean all Selected Options
+###### Click on 'Clean' button.
