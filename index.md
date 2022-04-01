@@ -1,3 +1,21 @@
+### Privacy vs Anonymity
+
+##### Privacy
+###### Keeping some things to yourself, which can include your actions. For example, messaging friends privately so they know who sent the message, but only they can read it. 
+
+##### Anonymity
+###### Keeping your identity private, but not your actions. For example, using a pseudonym to post messages to a social media platform.
+
+##### Privacy vs Anonymity
+###### The precautions used to keep you safe. What exactly “safe” means can very much depend on your threat model. Good security is generally a prerequisite for staying private online, but is often less important for anonymity. In fact, anonymity can often be detrimental to security.
+###### While you should prioritize one over the other in certain situations, the trick is to find the right balance between the 2, where you have a safe online experience without sacrificing convenience. This depends on understanding the implications your online actions have on your Internet and real life experience.
+
+
+
+
+
+
+
 ## Anonymity on Computer
 
 <br>
@@ -9,11 +27,29 @@
 
 <br>
 
+
+
+
+
+
+
+
 #### Install some Linux Distro!
 
 ###### Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.
 
 <br>
+
+
+
+
+
+
+
+
+
+
+
 
 ### Encrypt your Drive
 
@@ -33,6 +69,17 @@
 `ifconfig {network card} up`
 
 <br>
+
+
+
+
+
+
+
+
+
+
+
 
 ### Install UFW Firewall
 
@@ -64,6 +111,17 @@
 `sudo ufw status verbose`
 
 <br>
+
+
+
+
+
+
+
+
+
+
+
 
 ### Install NoIP Service
 
@@ -125,6 +183,17 @@
 
 <br>
 
+
+
+
+
+
+
+
+
+
+
+
 ### Install I2P Service
 
 ###### I2P is an overlay network and darknet that allows software applications to send and receive messages to others on the network and securely under pseudonyms. Uses include websites, blogs, online sales sites, and file transfer. Since I2P is an anonymous network, it is designed to be used by other software as a communication channel. And so there are a variety of applications available or under development that use I2P internally.
@@ -154,6 +223,17 @@
 
 <br>
 
+
+
+
+
+
+
+
+
+
+
+
 ### Install TOR Network
 
 ###### Tor Network is a service that provides a browser, bridges, and proxies for users to access the Internet with as much privacy as possible. Tor routes traffic through multiple servers and encrypts it every step of the way. The Tor Network is a decentralized service, meaning that the Tor Network can be operated by entities with diverse interests and assumptions of trust... and is thus an open source service.
@@ -168,6 +248,13 @@
 `sudo service tor start`
 
 <br>
+
+
+
+
+
+
+
 
 ### Configure Tor Browser
 
@@ -196,6 +283,15 @@
 
 <br>
 
+
+
+
+
+
+
+
+
+
 ### Install Anonsurf VPN
 
 ###### This script is designed to provide users with system-wide anonymization. In simpler words, anything you do while Anonsurf is started on your system would be almost untraceable. Anonsurf not only routes all your traffic through Tor, but also allows you to start i2p services and clean up any traces left on the user's disk. Anonsurf also deletes all dangerous applications by virtue of the Pandora bomb.
@@ -216,6 +312,13 @@
 
 <br>
 
+
+
+
+
+
+
+
 ### Passwords
 
 ###### 1. Always create different passwords for different sites
@@ -225,6 +328,15 @@
 ###### 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
 
 <br>
+
+
+
+
+
+
+
+
+
 
 ### Create a new Online Identity
 ###### Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
@@ -255,6 +367,18 @@
 ###### Google Account - https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&hl=en_EN&dsh=S671161644%3A1648763270630717&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
 
 ###### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
+
+<br>
+
+
+
+
+
+
+
+
+
+
 
 
 ### Create a CryptoWallet
