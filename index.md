@@ -120,6 +120,7 @@
 #### Enable NoIP Service
 
 `sudo systemctl enable noip2`
+
 `sudo systemctl start noip2`
 
 <br>
@@ -283,13 +284,18 @@
 
 #### Install python-pip
 `sudo apt-get install python3 && sudo apt-get install python2`
+
 `sudo apt-get install python3-setuptools python3-pip`
+
 `python3 -m pip install --user Electrum-4.2.1.tar.gz`
 
 #### Download Package
 `tar -xvf Electrum-4.2.1.tar.gz`
+
 `cd Electrum-4.2.1/`
+
 `python3 -m pip install setup.py`
+
 `chmod +x ./run_electrum`
 
 #### Start CryptoWallet
