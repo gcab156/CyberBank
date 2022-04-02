@@ -1,4 +1,4 @@
-## Anonymity on Computer
+## Anonymity on Linux
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-### Install some Linux Distro!
+### Why Linux Distro?
 
 ###### Linux systems are rarely infected by malware such as viruses, worms etc, thereby making it as a very secure OS. As a normal user, we will never come across a situation where Antivirus software is been sold for Linux. This means, Linux is inherently secure and there are many reasons associated with it.
 
