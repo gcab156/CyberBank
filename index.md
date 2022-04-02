@@ -18,8 +18,11 @@
 
 ## Themes to Learn
 
-<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/computer">Computer Anonymity</a></h5>
-<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/android">Smartphone Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/linux">Linux Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/windows">Windows Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/mac"> Mac Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/android">Android Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/ios">iOS Anonymity</a></h5>
 
 <p> </p>
 <p> </p>
