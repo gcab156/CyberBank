@@ -367,4 +367,4 @@
 ###### --> Trash
 
 #### Clean all Selected Options
-###### Click on 'Clean' button.
+###### Click on 'Run Cleaner' button.
