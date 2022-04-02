@@ -6,7 +6,8 @@
 
 
 
-#### Covering Entries
+#### Physical
+###### --> Lock BIOS with Password
 ###### --> Cover your camera
 ###### --> Cover the microphone/s
 ###### --> Remove the GPS card
