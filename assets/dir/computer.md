@@ -7,9 +7,9 @@
 
 
 #### Covering Entries
-###### 1. Cover your camera
-###### 2. Cover the microphone/s
-###### 3. Remove the GPS card
+###### --> Cover your camera
+###### --> Cover the microphone/s
+###### --> Remove the GPS card
 
 
 
@@ -18,12 +18,12 @@
 
 
 ### Router Security
-###### 1. Disable WPS function
-###### 2. Disable Broadcast SSID
-###### 3. Set a Secure WPA2 Password
-###### 4. Maximum Firewall Security
-###### 5. Paid VPN
-###### 6. Disable Log's
+###### --> Disable WPS function
+###### --> Disable Broadcast SSID
+###### --> Set a Secure WPA2 Password
+###### --> Maximum Firewall Security
+###### --> Paid VPN
+###### --> Disable Log's
 
 
 
@@ -109,10 +109,10 @@
 ###### No-IP provides dynamic DNS services . A basic one is provided free of charge, as long as the user updates his access from time to time, keeping it active. Upgrades to DDNS come with purchases. Dynamic IP addresses are common in residential cable or DSL broadband accounts, and typical DDNS users would be users of these types of Internet connections. The service allows users to create up to three host names in a No-IP domain. Software clients are provided for Windows, OS X and Linux, which allows DDNS to connect to these operating systems. More often, however, routers are used in such DDNS setups.
 
 #### Create Account
-###### 1. Go to the NoIP website and create an account
-###### 2. Check your email for the verification and click the link.
-###### 3. Log out / Log in again and create a userid
-###### 4. Create a DynDNS entry
+###### --> Go to the NoIP website and create an account
+###### --> Check your email for the verification and click the link.
+###### --> Log out / Log in again and create a userid
+###### --> Create a DynDNS entry
 
 #### Gather the Binaries
 
@@ -224,15 +224,15 @@
 
 #### Settings
 
-###### 1. Go to "about:preferences#search" and select 'DuckDuckGoOnion' in the 'Default Search Engine'
+###### --> Go to "about:preferences#search" and select 'DuckDuckGoOnion' in the 'Default Search Engine'
 
-###### 2. Go to "about:preferences#privacy" and select the 'Always' option in 'Onion services'
+###### --> Go to "about:preferences#privacy" and select the 'Always' option in 'Onion services'
 
-###### 3. Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
+###### --> Still in "about:preferences#privacy" go to 'Permissions' and in each of the options go to 'Settings...' and select 'Block new requests asking to...'
 
-###### 4. Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
+###### --> Also in "about:preferences#privacy" scroll down to 'Security' and select the 'Safer' option, because the 'Safest' option has some incompatibilities with some sites, because the option disables JavaScript on all sites, and also disables some Fonts, icons, math symbols and images that are required.
 
-###### 5. To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
+###### --> To end up in "about:preferences#privacy" go to 'Deceptive Content and Dangerous Software Protection' and enable the options 'Block Dangerous and Deceptive Content' , 'Block Dangerous downloads' and 'Warn you about Unindeseed and Uncommonmon Software'
 
 #### Install Extensions
 ###### Privacy Badger - https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/
@@ -277,11 +277,11 @@
 
 ### Passwords
 
-###### 1. Always create different passwords for different sites
+###### --> Always create different passwords for different sites
 
-###### 2. Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols
+###### --> Always create passwords with +8 characters, these are uppercase, lowercase, numeric and symbols
 
-###### 3. Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
+###### --> Use a good Password Manager like "LastPass Password Manager" or "Bitwarden - Free Password Manager"
 
 
 
@@ -338,19 +338,36 @@
 ### Create a new Online Identity
 ###### Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
 
-#### Delete your Information of Google
-###### 1. https://myaccount.google.com/deleteservices
+#### Delete your Information from Google
+##### Remove Data from Google
+###### --> Change all Personal Information
+###### --> Remove all content from Google Drive
+###### --> Remove all content from YouTube Studio
+###### --> Delete your Google+ Profile
+###### --> Delete all your Gmail e-mails  
+###### --> https://myaccount.google.com/deleteservices
+###### --> https://myactivity.google.com/item
+###### --> https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity
+###### --> Delete Account - https://myaccount.google.com/deleteaccount
 
-###### 2. https://myactivity.google.com/item
 
-###### 3. https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity
 
-###### 4. https://myaccount.google.com/deleteaccount
+#### Delete your Information from META
+##### Remove Facebook Data
+###### --> Request Data - https://www.facebook.com/dyi/
+###### --> Select Format as 'HTML'
+###### --> Select Quality of content as 'High'
+###### --> Select Date range as 'Always'
+###### --> Click in 'Request download' button
+###### --> WAIT FOR FACEBOOK REQUEST DATA! (this may take around 4 months)
+###### --> https://m.facebook.com/off_facebook_activity/
+###### --> https://www.facebook.com/help/delete_account/
 
-#### Delete your Information of Facebook
-###### 1. https://m.facebook.com/off_facebook_activity/
+##### Remove Instagram Data
+###### --> Request Data - https://www.instagram.com/download/request/
+###### --> Change Profile Informations
+###### --> Delete Account - https://www.instagram.com/accounts/remove/request/permanent/
 
-###### 2. https://www.facebook.com/help/delete_account/
 
 
 #### Create a Fake ID
@@ -416,35 +433,35 @@
 `./run_electrum`
 
 #### Creating a Account
-###### 1. Select where you want to have your Wallet
-###### 2. Set a Password
-###### 3. Select the 'Wallet with two-factor authentication' option
-###### 4. Select the 'Create a new seed' option
-###### 5. Select the 'Segwit' option
-###### 6. Guarde a sua semente num sitio SEGURO.
-###### 7. Paste the Seed
-###### 8. Set a Password
-###### 9. Confirm Password
-###### 10. Select the 'Encrypt wallet file' option
-###### 11. Enter your Email Address
-###### 12. Install Google Authenticator on your Smartphone
-###### 13. Follow the instructions
-###### 14. Click on '+' button
-###### 15. Click in 'Scan barcode'
-###### 16. Scan the QR Code of the Wallet 
-###### 17. Paste the 6-num. Code in Wallet
+###### --> Select where you want to have your Wallet
+###### --> Set a Password
+###### --> Select the 'Wallet with two-factor authentication' option
+###### --> Select the 'Create a new seed' option
+###### --> Select the 'Segwit' option
+###### --> Guarde a sua semente num sitio SEGURO.
+###### --> Paste the Seed
+###### --> Set a Password
+###### --> Confirm Password
+###### --> Select the 'Encrypt wallet file' option
+###### --> Enter your Email Address
+###### --> Install Google Authenticator on your Smartphone
+###### --> Follow the instructions
+###### --> Click on '+' button
+###### --> Click in 'Scan barcode'
+###### --> Scan the QR Code of the Wallet 
+###### --> Paste the 6-num. Code in Wallet
 
 #### Buy Bitcoin
-###### 1. Go to "https://bitcoin.org/en/buy"
-###### 1. Set the Amount
-###### 3. Enter your Wallet Address 
-###### 4. Enter your Email Address 
-###### 5. Enter the Verification Code in your Email-Box
-###### 6. Select Select the Check Boxes you want
-###### 7. Set your FAKE Informations
-###### 8. Upload your FAKE National Identify Card
-###### 9. Select the Payment Method
-###### 10. Follow the rest of the instructions.
+###### --> Go to "https://bitcoin.org/en/buy"
+###### --> Set the Amount
+###### --> Enter your Wallet Address 
+###### --> Enter your Email Address 
+###### --> Enter the Verification Code in your Email-Box
+###### --> Select Select the Check Boxes you want
+###### --> Set your FAKE Informations
+###### --> Upload your FAKE National Identify Card
+###### --> Select the Payment Method
+###### --> Follow the rest of the instructions.
 
 
 
@@ -454,7 +471,7 @@
 
 ### Clean Cache/Temp Data
 #### Gathering the Binnaries
-###### 1. Download from 'https://www.bleachbit.org/download/linux'
+###### --> Download from 'https://www.bleachbit.org/download/linux'
 
 #### Install Deb File
 `sudo dpkg --install <deb file name>`
@@ -463,16 +480,16 @@
 `bleachbit`
 
 #### Selection
-###### 1. Autoclean
-###### 2. Autoremove
-###### 3. Clean
-###### 4. Cache
-###### 5. Vacuum
-###### 6. Temporary Files
-###### 7. Free Disk Space
-###### 8. Localizations
-###### 9. Rotated logs
-###### 10. Trash
+###### --> Autoclean
+###### --> Autoremove
+###### --> Clean
+###### --> Cache
+###### --> Vacuum
+###### --> Temporary Files
+###### --> Free Disk Space
+###### --> Localizations
+###### --> Rotated logs
+###### --> Trash
 
 #### Clean all Selected Options
 ###### Click on 'Clean' button.
