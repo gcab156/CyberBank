@@ -1,6 +1,4 @@
 ## Privacy & Anonymity
-#### Privacy vs Anonymity
-
 ##### Privacy
 ###### Keeping some things to yourself, which can include your actions. For example, messaging friends privately so they know who sent the message, but only they can read it. 
 
