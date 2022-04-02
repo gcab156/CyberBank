@@ -11,6 +11,12 @@
 ###### The precautions used to keep you safe. What exactly “safe” means can very much depend on your threat model. Good security is generally a prerequisite for staying private online, but is often less important for anonymity. In fact, anonymity can often be detrimental to security.
 ###### While you should prioritize one over the other in certain situations, the trick is to find the right balance between the 2, where you have a safe online experience without sacrificing convenience. This depends on understanding the implications your online actions have on your Internet and real life experience.
 
+
+
+<br>
+
+
+
 <h5><a href="https://gcab156.github.io/CyberBank/assets/dir/linux">Linux Anonymity</a></h5>
 <h5><a href="https://gcab156.github.io/CyberBank/assets/dir/windows">Windows Anonymity</a></h5>
 <h5><a href="https://gcab156.github.io/CyberBank/assets/dir/mac"> Mac Anonymity</a></h5>
