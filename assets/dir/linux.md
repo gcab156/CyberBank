@@ -479,7 +479,7 @@
 #### Start Programm
 `bleachbit`
 
-#### Selection
+#### Select all of:
 ###### --> Autoclean
 ###### --> Autoremove
 ###### --> Clean
