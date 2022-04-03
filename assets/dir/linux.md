@@ -389,6 +389,24 @@
 
 
 
+### Secure Communication
+###### Comunicação segura é quando duas entidades estão se comunicando e não querem que um terceiro ouça. Para que seja o caso, as entidades precisam se comunicar de uma forma que seja inaceitável para espionagem ou interceptação.
+
+##### Pidgin Messenger
+###### Pidgin is a chat program that allows you to log into accounts on multiple chat networks simultaneously. This means that you can be chatting with friends in XMPP and sitting in an IRC channel at the same time.
+
+##### Install Pidgin
+`sudo apt-get install pidgin`
+
+##### Run Pidgin
+`sudo pidgin`
+
+
+
+<br>
+
+
+
 ### Create a CryptoWallet
 
 ##### Cryptocurrencies
