@@ -15,9 +15,11 @@
 
 
 
-<h5><a href="https://gcab156.github.io/CyberBank/assets/dir/linux">Linux Anonymity</a></h5>
-<h5><a href="https://gcab156.github.io/CyberBank/assets/dir/windows">Windows Anonymity</a></h5>
-
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/linux">Linux Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/windows">Windows Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/mac"> Mac Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/android">Android Anonymity</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/ios">iOS Anonymity</a></h5>
 
 
 
@@ -25,5 +27,17 @@
 
 
 
-## Hacking & Bug Bounty
-###### WE ARE WORKING ON...
+## Deep Web & Dark Web
+##### What is Deep Web?
+
+###### The Deep Web is worldwide Web content that is not included as a part of the Surface Web. It is hidden from the outside world, so standard search engines do not index it. It is the largest expanding category of new information on the Internet. The total quantity of the deep web is 1000-2000X greater than the quantity of the Surface Web. It is defined as the part of the Internet that is hidden and not shown from conventional search engines, as per encryption; the aggregate of non-indexed websites.
+###### ###### The Deep Web is made up of thousands of pages, blogs, videos, forums, chats, and databases that are designed to remain hidden from the general public.
+
+##### What is Dark Web
+###### The Dark Web is a small part of the Deep Web, where it is harder to access, and thus more restricted and secure.
+###### The Dark Web is made up of Murders, Child Pornography, Bank Account Data, Human Smuggling, Drug Dealing, Black Markets, Guns... only Illegal Stuff.
+
+
+
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/deepweb">Deep Web</a></h5>
+<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/darkweb">Dark Web</a></h5>
