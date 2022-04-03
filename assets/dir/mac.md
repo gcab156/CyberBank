@@ -54,7 +54,7 @@
 ###### --> Follow the Installer options
 
 ##### Change your MAC Address
-###### --> Run TMAC as Administrator
+###### --> Run TMAC
 ###### --> Paste this MAC Address "00-11-22-33-44-55"
 ###### --> Click on 'Change Now!' button
 
@@ -195,23 +195,6 @@
 
 
 
-### Disable Windows Functions
-#### Download ShutUp10
-###### --> Download from - https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe
-###### --> Follow the Installer options
-
-#### Configure ShutUp10 Options
-###### --> Run O&O ShutUp10 as Administrator
-###### --> Click on 'Actions' button
-###### --> Click on 'Apply all recommended and limited recommended settings' option
-###### --> Reboot System
-
-
-
-<br>
-
-
-
 ### Create a new Online Identity
 ###### Deleting your information and creating false ones will anonymize your personal data (name, age, gender) and you will be able to create a new "Person" online, so that you can hide who you really are
 
@@ -258,100 +241,3 @@
 ###### Google Account - https://accounts.google.com/signup/v2/webcreateaccount?continue=https%3A%2F%2Faccounts.google.com%2F%3Fhl%3Den-EN&hl=en_EN&dsh=S671161644%3A1648763270630717&biz=false&flowName=GlifWebSignIn&flowEntry=SignUp
 
 ###### Onion Facebook - https://www.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion/
-
-
-
-<br>
-
-
-
-### Create a CryptoWallet
-
-##### Cryptocurrencies
-
-###### A cryptocurrency is a medium of exchange, which can be centralized or decentralized that uses blockchain technology and cryptography to ensure the validity of transactions and the creation of new units of the currency.
-
-
-##### BlockChain
-###### Blockchain is a distributed ledger technology that aims at decentralization as a security measure. It is a distributed and shared database that has the function of creating a global index for all transactions that occur in a given market. It works like a ledger, but in a public, shared, and universal way, which creates consensus and trust in direct communication between two parties, that is, without the intermediation of third parties such as the government.
-
-
-##### Bitcoin
-
-###### Bitcoin allows financial transactions without intermediaries, but verified by all users of the network, which are recorded in a blockchain. Bitcoin is a decentralized network, that is, a structure without a central managing entity, which makes it impossible for any financial or governmental authority to manipulate the issuance and value of the cryptocurrency or to induce inflation by producing more money.
-
-
-##### Ethereum
-
-###### Ethereum is a decentralized platform capable of running smart contracts and decentralized applications using blockchain technology. These are applications that run exactly as programmed without any possibility of censorship, fraud, or interference from third parties, because the contract is immutable.
-
-
-
-#### Install Dependencies
-###### --> Download from - https://electrum.org/#download
-###### --> Run Installer file as Administrator
-###### --> Click on 'install' button
-
-#### Create an Account
-###### --> Select where you want to have your Wallet
-###### --> Set a Password
-###### --> Select the 'Wallet with two-factor authentication' option
-###### --> Select the 'Create a new seed' option
-###### --> Select the 'Segwit' option
-###### --> Guarde a sua semente num sitio SEGURO.
-###### --> Paste the Seed
-###### --> Set a Password
-###### --> Confirm Password
-###### --> Select the 'Encrypt wallet file' option
-###### --> Enter your Email Address
-###### --> Install Google Authenticator on your Smartphone
-###### --> Follow the instructions
-###### --> Click on '+' button
-###### --> Click in 'Scan barcode'
-###### --> Scan the QR Code of the Wallet 
-###### --> Paste the 6-num. Code in Wallet
-
-#### Buy Bitcoin
-###### --> Go to "https://bitcoin.org/en/buy"
-###### --> Set the Amount
-###### --> Enter your Wallet Address 
-###### --> Enter your Email Address 
-###### --> Enter the Verification Code in your Email-Box
-###### --> Select Select the Check Boxes you want
-###### --> Set your FAKE Informations
-###### --> Upload your FAKE National Identify Card
-###### --> Select the Payment Method
-###### --> Follow the rest of the instructions.
-
-
-
-<br>
-
-
-
-### Clean Cache/Temp Data
-#### Gathering the Binnaries
-###### --> Download from 'https://www.ccleaner.com/ccleaner/download/standard'
-###### --> Click on 'Install' button
-###### --> Deny installation to all third-party applications 
-###### --> Restart System
-
-#### Start Application
-###### --> Run CCleaner as Administrator
-###### --> Insert Pro Serial Key - C2YW-IAHG-ZU62-INZQ-WZPC
-###### --> Go to 'Custom Clean'
-
-#### Select all of:
-###### --> Autoclean
-###### --> Autoremove
-###### --> Clean
-###### --> Cache
-###### --> Vacuum
-###### --> Temporary Files
-###### --> Free Disk Space
-###### --> Localizations
-###### --> Rotated logs
-###### --> Trash
-
-#### Clean all Selected Options
-###### Click on 'Run Cleaner' button.
