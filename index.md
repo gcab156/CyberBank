@@ -18,8 +18,6 @@
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/linux">Linux Anonymity</a></h5>
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/windows">Windows Anonymity</a></h5>
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/mac"> Mac Anonymity</a></h5>
-<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/android">Android Anonymity</a></h5>
-<h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/ios">iOS Anonymity</a></h5>
 
 
 
@@ -39,5 +37,15 @@
 
 
 
+<br>
+
+
+
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/deepweb">Deep Web</a></h5>
 <h5><a href="https://gcab156.github.io/How-to-be-Anonymous/assets/dir/darkweb">Dark Web</a></h5>
+
+
+
+<br>
+
+
